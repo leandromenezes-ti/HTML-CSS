@@ -1,0 +1,21 @@
+@charset "UTF8";
+*{
+    background-color: rgb(29, 27, 27);
+}
+h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+.bloco1{
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+.bloco2{
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+img{
+    size: 100px;
+}

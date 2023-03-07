@@ -1,0 +1,153 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,200;1,500;1,700&display=swap');
+body {
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 30px;
+    margin: 0;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    display: inline;
+    border: 1px solid palevioletred;
+}
+
+nav {
+    float: right;
+    display: inline;
+    text-align: center;  
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+nav > a:hover {
+    color: palevioletred;
+}
+
+#sobre img {
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px  palevioletred;
+}
+
+#sobre img:hover {
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px rgb(236, 7, 83);
+}
+
+
+#sobre p {
+    text-align: justify;
+}
+
+#sobre {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#blog {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#blog img {
+    width: 400px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    box-shadow: 2px 0px 6px palevioletred;
+}
+
+#blog img:hover {
+    width: 400px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    box-shadow: 2px 0px 12px rgb(236, 7, 83);
+}
+
+#blog p{
+    text-align: justify;
+}
+#blog aside {
+    text-align: left;
+    font-weight: 200;
+}
+
+#projetos {
+    width: 70%;
+    text-align: center;
+    margin: auto; 
+}
+
+#projetos img {
+    height: 200px;
+    width: 200px;
+    display: inline;
+    padding: 10px;
+}
+
+#projetos img:hover {
+    height: 200px;
+    width: 200px;
+    display: inline;
+    padding: 10px;
+    box-shadow: 2px 0px 12px rgb(236, 7, 83);
+}
+
+
+#projetos h2 {
+    text-align: center;
+
+}
+
+#contatos{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+
+#contatos img {
+    height: 50px;
+    width: 50px;
+}
+
+#contatos img:hover {
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 200px;
+}
+

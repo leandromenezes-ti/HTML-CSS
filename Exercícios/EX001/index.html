@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercício</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: rgb(55, 114, 55);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <hr>
+    <p>&lt;hr&gt;Horizontal role ou linha horizontal</p><!--LESS THAN / GREATER THAN-->
+    <p>A tag &lt;p&gt; É a responsável por criar esse paragráfo. Esse é o meu primeiro documento HTML,estou muito feliz!<br>
+    Já a tag &lt;br&gt; foi quem fez essa quebra de linha. Este é um momento único, estou criando um site</p>
+    <p>&reg; Marca registrada</p>
+    <p>&copy; Símbolo de Copyright</p>
+    <p>&trade; Marca registrada</p>
+    <p>&dollar; Marca registrada</p>   
+    <p>Agora adicionando uns emojis: &#x1F468;&#x200D;&#x1F393; &#x1F9D4;  </div></p><!--Usei o emgojipidia-->
+    <p>Agora é a vez das imagens</p><img src="logohtml200.png" alt="Logo HTML5">
+    <p>Agora é a vez das imagens</p><img src="logocss.png" alt="Logo CSS3">
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <h3>Justificação Temática</h3>
+    <h4>Testando subtítulos</h4>
+    <h2>Principais Formatações</h2>
+    <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit.</p><!--Negrito Semântico-->
+    <p>Texto em <en>ênfase</en></p><!--Itálico/ forma semântica-->
+    <h3>Texto Marcado</h3>
+    <p>Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.</p><!--Marca texto-->    
+    <h2>Texto grande e <small> pequeno </small> </h2>
+    <p>Texto <ins>inserido</ins></p>
+    <p>Texto <del>excluído</del> </p>
+    <p>Texto sobrescrito 2<sup>3</sup> </p>
+    <p>Texto subscrito H<sub>2</sub>O</p> 
+    <h2>Para utilizar códigos</h2>
+    <p>Podemos utizar a tag <code>document.getElementById('teste')</code></p> <!--TAG CODE--> 
+    <pre><!--TAG Pré-Formatação-->
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0;
+                print(f' O número {num} é 'PAR')
+            else
+                print(f' O número {num} é 'ÍMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--citações simples-->
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos: </p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante.
+    </blockquote>
+    <p>Você pode utilizar abrerviações <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> para visualizar no site ao passar o mouse em cima</p>
+    <ol type="1"> <!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Ligar a TV</li>
+        <li>Trabalhar</li>
+        <li>Estudar</li>
+    </ol>
+    <ul type="circle"> <!--disc circle square-->
+        <li>Acordar</li>
+        <li>Ligar a TV</li>
+        <li>Trabalhar</li>
+        <li>Estudar</li>
+    </ul>
+    <h2>Listas Mistas</h2>
+    <ol>
+        <li>Master System</li>
+        <ul>
+            <li>Sonic</li>
+            <li>Mortal Kombat</li>
+        </ul>
+        <li>Playstation 2</li>
+        <ul>
+            <li>PES</li>
+            <li>God of War</li>
+        </ul>
+        <li>Playstation 3</li>
+        <ul>
+            <li>God of War</li>
+            <li>Fifa 17</li>
+        </ul>
+        <li>Xbox One</li>
+        <ul>
+            <li>Fifa 18</li>
+            <li>Fifa 20</li>
+        </ul>
+    </ol>
+    <dl> <!--Como se fosse um dicionário-->
+        <dt>Termo</dt>
+        <dd>Definição</dd>
+    </dl>
+    <h2>Links e Ancoras</h2>
+    <p>Para pegar todo o material de estudo é só acessar o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">repositório no github</a></p>
+    <p>Para acessar a <a href="pag002.html" rel="next">págia 02</a> do site basta clicar</p>
+    <p>Você pode acessar a nossa <a href="noticias/pag003.html">Página de notícias</a></p>
+    <picture>
+        <source media="(max-width:750px )" srcset="../EX001/imagens/natureza-p.jpg">
+        <source media="(max-width:1050px )" srcset="../EX001/imagens/natureza-m.jpg">
+        <img src="../EX001/imagens/natureza-g.jpg" alt="imagem da natureza">
+    </picture>
+    <p>Vamos agora ingluir um áudio</p>
+    <audio preload="metadata" controls autoplay loop><!--auto metadata none-->
+        <source src="guanabaracast.mp3"/>
+        <source src="guanabaracast.ogg"/>
+        <source src="guanabaracast.wav"/>
+    </audio>
+    <video width="600px" poster="thumb.jpg" controls autoplay>
+        <source src="guanabaracast.webm" type="video/webm"/>
+        <source src="guanabaracast.mp4" type="video/mp4"/>
+        <source src="guanabaracast.ogv"type="video/ogv"/>
+    </video>
+</body>
+</html>

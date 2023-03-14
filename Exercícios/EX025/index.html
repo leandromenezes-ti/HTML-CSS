@@ -13,10 +13,22 @@
 </head>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form>
-        <p><label for="inome">Nome:</label> </p> <input type="text" name="nome" id="inome">
-        <p><label for="isobrenome">Sobrenome:</label> </p> <input type="text" name="sobrenome" id="isobrenome">
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <form action="cadastro.php" method="post" autocomplete="on" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        <p>
+            <label for="in1">Número 1</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required>
+        </p>
+        <p>
+            <label for="in2">Número 2</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required>
+        </p>
+        <p>
+            <label for="isoma">Soma</label>
+            <output name="soma" id="isoma">0</output>  
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">        
+    </form>    
 </body>
 </html>
